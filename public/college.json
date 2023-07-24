@@ -1,0 +1,297 @@
+[
+    {
+      "college_name": "University of XYZ",
+      "college_image": "https://i.ibb.co/SVDWkhs/pexels-photo-207684.jpg",
+      "college_rating": 4.5,
+      "admission_date": "2023-09-01",
+      "admission_process": "Online application and entrance exam",
+      "number_of_research": 150,
+      "research_history": "Founded in 1950, the University of XYZ has a rich history of research contributions.",
+      "research_works": [
+        "Study on Renewable Energy Sources",
+        "Advancements in Artificial Intelligence",
+        "Sustainable Agriculture Research"
+      ],
+      "events": [
+        "Annual Cultural Fest, ",
+        "Tech Symposium, ",
+        "Literary Conference"
+      ],
+      "events_details": {
+        "Annual Cultural Fest": "Date: 2023-11-15 to 2023-11-18, Theme: 'Celebrating Diversity'",
+        "Tech Symposium": "Date: 2023-10-05 to 2023-10-07, Theme: 'Innovation and Technology'",
+        "Literary Conference": "Date: 2023-09-20 to 2023-09-22, Theme: 'Exploring New Horizons in Literature'"
+      },
+      "sports": [
+        "Basketball, ",
+        "Soccer, ",
+        "Swimming"
+      ],
+      
+        "sports_categories": [
+          {
+            "category": "Basketball",
+            "team_count": 2,
+            "coaches": ["John Smith", "Emily Johnson"],
+            "practice_schedule": "Monday, Wednesday, Friday - 4:00 PM to 6:00 PM"
+          },
+          {
+            "category": "Soccer",
+            "team_count": 3,
+            "coaches": ["Michael Brown", "Sophia Wilson", "David Lee"],
+            "practice_schedule": "Tuesday, Thursday - 5:00 PM to 7:00 PM"
+          },
+          {
+            "category": "Swimming",
+            "team_count": 1,
+            "coaches": ["Jennifer Miller"],
+            "practice_schedule": "Monday, Wednesday - 6:30 AM to 8:30 AM, Friday - 7:00 PM to 9:00 PM"
+          }
+        ]
+    },
+    {
+      "college_name": "ABC College of Engineering",
+      "college_image": "https://i.ibb.co/1J19ZrL/pexels-photo-247823.jpg",
+      "college_rating": 4.2,
+      "admission_date": "2023-08-25",
+      "admission_process": "Merit-based admission through counseling",
+      "number_of_research": 80,
+      "research_history": "ABC College of Engineering is known for its cutting-edge research in engineering fields.",
+      "research_works": [
+        "Nanotechnology Applications",
+        "Smart Cities Development",
+        "Robotics and Automation"
+      ],
+      "events": [
+        "Tech Expo, ",
+        "Cultural Week, ",
+        "Startup Fair"
+      ],
+      "events_details": {
+        "Tech Expo": "Date: 2023-10-10 to 2023-10-12, Theme: 'Innovations in Technology'",
+        "Cultural Week": "Date: 2023-09-12 to 2023-09-16, Theme: 'Unity in Diversity'",
+        "Startup Fair": "Date: 2023-11-02 to 2023-11-04, Theme: 'Fostering Entrepreneurship'"
+      },
+      "sports": [
+        "Basketball, ",
+        "Soccer, ",
+        "Swimming"
+      ],
+        "sports_categories": [
+          {
+            "category": "Cricket",
+            "team_count": 2,
+            "coaches": ["Andrew Johnson", "Olivia Brown"],
+            "practice_schedule": "Tuesday, Thursday - 4:00 PM to 6:00 PM, Saturday - 8:00 AM to 10:00 AM"
+          },
+          {
+            "category": "Volleyball",
+            "team_count": 2,
+            "coaches": ["Sophie Wilson", "Robert Davis"],
+            "practice_schedule": "Monday, Wednesday, Friday - 5:00 PM to 7:00 PM"
+          },
+          {
+            "category": "Badminton",
+            "team_count": 1,
+            "coaches": ["Emily White"],
+            "practice_schedule": "Monday, Wednesday - 7:30 AM to 9:30 AM, Saturday - 2:00 PM to 4:00 PM"
+          }
+        ]
+    },
+    {
+      "college_name": "City University",
+      "college_image": "https://i.ibb.co/54yPbSh/pexels-photo-207692.jpg",
+      "college_rating": 4.0,
+      "admission_date": "2023-09-05",
+      "admission_process": "Entrance exam followed by an interview",
+      "number_of_research": 120,
+      "research_history": "City University has a strong focus on practical research applications.",
+      "research_works": [
+        "Urban Planning for Sustainable Cities, ",
+        "Healthcare Innovations, ",
+        "Data Science and Analytics,"
+      ],
+      "events": [
+        "Annual Sports Meet",
+        "Tech Conference",
+        "Cultural Extravaganza"
+      ],
+      "events_details": {
+        "Annual Sports Meet": "Date: 2023-12-01 to 2023-12-03, Events: Athletics, Football, Swimming, Tennis, and more",
+        "Tech Conference": "Date: 2023-11-10 to 2023-11-12, Theme: 'Emerging Technologies for the Future'",
+        "Cultural Extravaganza": "Date: 2023-10-20 to 2023-10-22, Theme: 'Celebrating Diversity in Arts'"
+      },
+      "sports": [
+        "Basketball, ",
+        "Soccer, ",
+        "Swimming"
+      ],
+        "sports_categories": [
+          {
+            "category": "Athletics",
+            "team_count": 1,
+            "coaches": ["Robert Johnson"],
+            "practice_schedule": "Tuesday, Thursday - 6:00 AM to 8:00 AM, Saturday - 5:00 PM to 7:00 PM"
+          },
+          {
+            "category": "Football",
+            "team_count": 2,
+            "coaches": ["Sophia Wilson", "David Lee"],
+            "practice_schedule": "Monday, Wednesday, Friday - 5:00 PM to 7:00 PM"
+          },
+          {
+            "category": "Swimming",
+            "team_count": 1,
+            "coaches": ["Jennifer Miller"],
+            "practice_schedule": "Monday, Wednesday - 6:30 AM to 8:30 AM, Friday - 7:00 PM to 9:00 PM"
+          }
+        ]
+    },
+    {
+      "college_name": "Greenfield College of Arts",
+      "college_image": "https://i.ibb.co/RpmwjYq/pexels-photo-6147276.jpg",
+      "college_rating": 4.8,
+      "admission_date": "2023-08-20",
+      "admission_process": "Portfolio-based evaluation and interview",
+      "number_of_research": 50,
+      "research_history": "Greenfield College of Arts emphasizes interdisciplinary and creative research.",
+      "research_works": [
+        "Contemporary Art and Society",
+        "Artificial Intelligence in Creative Industries",
+        "Sustainable Art Practices"
+      ],
+      "events": [
+        "Art Fair",
+        "Literary Festival",
+        "Music Showcase"
+      ],
+      "events_details": {
+        "Art Fair": "Date: 2023-10-15 to 2023-10-17, Theme: 'Art for a Better World'",
+        "Literary Festival": "Date: 2023-09-25 to 2023-09-28, Theme: 'Celebrating Diversity in Literature'",
+        "Music Showcase": "Date: 2023-11-05 to 2023-11-07, Theme: 'Harmony of Melodies'"
+      },
+      "sports": [
+        "Basketball, ",
+        "Soccer, ",
+        "Swimming"
+      ],
+        "sports_categories": [
+          {
+            "category": "Basketball",
+            "team_count": 1,
+            "coaches": ["John Smith"],
+            "practice_schedule": "Tuesday, Thursday - 4:00 PM to 6:00 PM, Saturday - 8:00 AM to 10:00 AM"
+          },
+          {
+            "category": "Table Tennis",
+            "team_count": 2,
+            "coaches": ["Emily White", "Michael Brown"],
+            "practice_schedule": "Monday, Wednesday, Friday - 5:00 PM to 7:00 PM"
+          },
+          {
+            "category": "Yoga",
+            "team_count": 1,
+            "coaches": ["Sophie Wilson"],
+            "practice_schedule": "Monday, Wednesday - 7:30 AM to 9:30 AM, Saturday - 2:00 PM to 4:00 PM"
+          }
+        ]
+    },
+    {
+      "college_name": "Technical Institute of Science",
+      "college_image": "https://i.ibb.co/PCP8H9N/pexels-photo-2973323.jpg",
+      "college_rating": 3.9,
+      "admission_date": "2023-08-30",
+      "admission_process": "Entrance exam and technical skills assessment",
+      "number_of_research": 90,
+      "research_history": "Technical Institute of Science focuses on research with practical applications in various fields.",
+      "research_works": [
+        "Renewable Energy Technologies",
+        "Automation and Robotics",
+        "IoT and Smart Cities"
+      ],
+      "events": [
+        "Tech Fest",
+        "Science Exhibition",
+        "Industry Symposium"
+      ],
+      "events_details": {
+        "Tech Fest": "Date: 2023-10-08 to 2023-10-10, Theme: 'Exploring Frontiers of Technology'",
+        "Science Exhibition": "Date: 2023-09-18 to 2023-09-21, Theme: 'Science for a Sustainable Future'",
+        "Industry Symposium": "Date: 2023-11-09 to 2023-11-11, Theme: 'Industry-Academia Collaboration'"
+      },
+      "sports": [
+        "Basketball, ",
+        "Soccer, ",
+        "Swimming"
+      ],
+        "sports_categories": [
+          {
+            "category": "Cricket",
+            "team_count": 2,
+            "coaches": ["Andrew Johnson", "Olivia Brown"],
+            "practice_schedule": "Tuesday, Thursday - 4:00 PM to 6:00 PM, Saturday - 8:00 AM to 10:00 AM"
+          },
+          {
+            "category": "Chess",
+            "team_count": 1,
+            "coaches": ["Robert Davis"],
+            "practice_schedule": "Monday, Wednesday, Friday - 5:00 PM to 7:00 PM"
+          },
+          {
+            "category": "Athletics",
+            "team_count": 1,
+            "coaches": ["Sophia Wilson"],
+            "practice_schedule": "Monday, Wednesday - 7:30 AM to 9:30 AM, Saturday - 2:00 PM to 4:00 PM"
+          }
+        ]
+    },
+    {
+      "college_name": "Medical College of XYZ",
+      "college_image": "https://i.ibb.co/RYqdvSR/yale-university-landscape-universities-schools-159490.jpg",
+      "college_rating": 4.7,
+      "admission_date": "2023-09-10",
+      "admission_process": "Entrance exam and medical aptitude test",
+      "number_of_research": 110,
+      "research_history": "Medical College of XYZ is at the forefront of medical research and patient care.",
+      "research_works": [
+        "Advancements in Surgery",
+        "Genetic Research for Rare Diseases",
+        "Mental Health Studies"
+      ],
+      "events": [
+        "Healthcare Symposium",
+        "Medical Research Expo",
+        "International Medical Conference"
+      ],
+      "events_details": {
+        "Healthcare Symposium": "Date: 2023-10-18 to 2023-10-20, Theme: 'Innovations in Healthcare'",
+        "Medical Research Expo": "Date: 2023-09-25 to 2023-09-27, Theme: 'Advancements in Medical Science'",
+        "International Medical Conference": "Date: 2023-11-12 to 2023-11-15, Theme: 'Global Healthcare Challenges'"
+      },
+      "sports": [
+        "Basketball, ",
+        "Soccer, ",
+        "Swimming"
+      ],
+        "sports_categories": [
+          {
+            "category": "Basketball",
+            "team_count": 2,
+            "coaches": ["John Smith", "Emily Johnson"],
+            "practice_schedule": "Monday, Wednesday, Friday - 4:00 PM to 6:00 PM"
+          },
+          {
+            "category": "Tennis",
+            "team_count": 1,
+            "coaches": ["Michael Brown"],
+            "practice_schedule": "Tuesday, Thursday - 5:00 PM to 7:00 PM, Saturday - 8:00 AM to 10:00 AM"
+          },
+          {
+            "category": "Swimming",
+            "team_count": 1,
+            "coaches": ["Jennifer Miller"],
+            "practice_schedule": "Monday, Wednesday - 6:30 AM to 8:30 AM, Friday - 7:00 PM to 9:00 PM"
+          }
+        ]
+    }
+  ]
