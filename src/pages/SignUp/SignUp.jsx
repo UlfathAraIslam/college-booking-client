@@ -1,10 +1,18 @@
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext, useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
+import { FaGoogle } from 'react-icons/fa';
 
 const SignUp = () => {
+    const navigate = useNavigate();
 
-    const {createUser} = useContext(AuthContext);
+    const {createUser,googleSignIn, user} = useContext(AuthContext);
+
+    useEffect(() => {
+        if (user) {
+            navigate('/')
+        }
+    }, [user, navigate])
 
     const handleSignup = event => {
         event.preventDefault();
@@ -21,6 +29,14 @@ const SignUp = () => {
         })
         .then(error => console.log(error))
     }
+    const handleGoogleSignIn = () => {
+        googleSignIn()
+            .then((result) => {
+                const user = result.user;
+                console.log(user);
+            })
+            .catch((error) => console.log(error));
+    };
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row-reverse">
@@ -54,6 +70,11 @@ const SignUp = () => {
                         <div className="form-control mt-6">
                             <button className="btn bg-blue-600 text-primary-content">Sign Up</button>
                         </div>
+                        <div className='w-full text-center my-4'>
+                                <button onClick={handleGoogleSignIn} className="btn btn-circle text-black bg-gray-300 btn-outline">
+                                    <FaGoogle />
+                                </button>
+                            </div>
                         </form>
                         <p className='my-4 text-center'>Already have an account? <Link to='/login' className='text-blue-600 font-bold'>Login</Link></p>
                     </div>
