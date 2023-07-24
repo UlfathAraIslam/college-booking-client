@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import CollegeCard from './CollegeCard';
+import CollegeCard from '../Home/Home/Colleges/CollegeCard';
 
-const Colleges = () => {
-    const [colleges, setColleges] = useState([]);
+const AllCollege = () => {
+        const [colleges, setColleges] = useState([]);
 
     useEffect(() => {
         fetch('http://localhost:5000/colleges')
@@ -10,7 +10,6 @@ const Colleges = () => {
             .then(data => setColleges(data))
     }, [])
 
-    const displayColleges = colleges.slice(0, 3);
 
     return (
         <div>
@@ -18,7 +17,7 @@ const Colleges = () => {
                 <h3 className='text-3xl text-center bg-blue-600 text-primary-content rounded'>Our Colleges</h3>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {
-                        displayColleges.map(college => <CollegeCard
+                        colleges.map(college => <CollegeCard
                             key={college._id}
                             college={college}
                         ></CollegeCard>)
@@ -29,4 +28,4 @@ const Colleges = () => {
     );
 };
 
-export default Colleges;
+export default AllCollege;

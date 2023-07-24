@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const navOptions = <>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/'>Colleges</Link></li>
-        <li><Link to='/'>Admission</Link></li>
+        <li><Link to='/allCollege'>Colleges</Link></li>
+        <li><Link to='/admission'>Admission</Link></li>
         <li><Link to='/'>My College</Link></li>
 
     </>
